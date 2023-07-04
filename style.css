@@ -1,18 +1,21 @@
 *{
-  max-width: 100%;
-  margin: 0px;
-  padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 body{
     position: relative;
     max-width: 100%;
-    background-color: rgb(140, 143, 127);
+    background-color: rgb(189, 184, 184);
 }
 
 
 .header_section{
-    max-width: 100%;
-    position: static;
+    position: relative;
+    width: 100%;
+    height: 20%;
+    margin-top: 0px;
     background-color: rgb(26, 77, 172);
 }
 
@@ -23,7 +26,7 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 80px;
+    height: 125px;
     /* background-color: rgb(85, 167, 223); */
 }
 
@@ -51,14 +54,14 @@ body{
     height: 40px;
 }
 
-.logo{position: relative;
-    padding: 5px;
+.logo{
     display: flex;
-    height: 200px;
-    width: 400px;
-   float: left;
-   align-items: center;
-   /* background: red; */
+    position: absolute;
+    margin-left: 37%;
+    margin-right: 50%;
+    /* background-color: red; */
+    width: 25%;
+    height: 100%;
 }
 
 .menu_section{
@@ -77,9 +80,10 @@ body{
 
 .container{
     max-width: 100%;
-    position: relative;
-    padding: 20px;
-    background-color: yellow;
+    position: static;
+    margin: 25px;
+    padding: 10px;
+    background-color: rgb(211, 206, 206);
 }
 
 .about_image{
@@ -89,10 +93,37 @@ body{
 }
 
 .about_us{
-    color: aliceblue;
+    color: rgb(225, 209, 240);
     position: absolute;
     margin-top: 3%;
-    margin-left: 20%;
+    margin-left: 9%;
     font-size: 30px;
+}
+
+.intro{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 63%;
+    left: 35%;
+    transform: translate(-27%, -50%);
+    font-size: 14px;
+    text-align: left;
+}
+
+.button{
+    width: 14%;
+    margin-left: 43%;
+    margin-right: 50%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #1c6aec;
+    height: 50px;
+    display: block;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
 
